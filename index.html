@@ -1,0 +1,708 @@
+
+ 
+<html> 
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Al-noor public school</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+        
+       
+          
+          
+          
+          #about {
+            padding: 50px 0;
+            background: #f5f5f7;
+          }
+      
+   
+   .logo img{
+    border-radius: 100px;
+    height:90px;
+    width:90px;
+  }
+   
+
+   
+
+    
+       
+         
+            
+
+           body{
+                  margin:0px;
+                  padding:0px;
+                  background-image:url(' https://www.ikea.com/in/en/images/products/smycka-artificial-flower-rose-white__0903190_pe596774_s5.jpg');
+           }
+
+           .li {
+    float: left;
+    width: 100%;
+    padding: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    height: 35px;
+    border-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    box-shadow: 0 0.1em 0.5em;
+}
+
+ marquee {
+  background-color:url('https://wallpaperaccess.com/full/3924583.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.scrollToTop {
+    transition: 0s;
+    background: #648DF2;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+ .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:#04AA6D;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+  .white{
+  background-color:white;
+  }
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+ 
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+    
+  </style>
+    </head>
+    
+    <body> 
+  
+      <div class="logo">
+        <a href="#"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJQNcbLmV7y3pSMlkrB3a-TVR7MTpiSuwuS_ssb5slkbrLdAoaPtoxxjgMTGlsMmSpg7XOkPLvxbfFfKc7FFDnaIauGSO_SbeH2HZQD5YWFYSUOWsq6aqXlA4HhLc6QHz2h6ZL-UX3F4wo8NUnVR02xFuqvjbiEE7Agw-ztPy-fndTe-Hq4WnkE5_GMg/s600/logo_school.png">
+        <a href="tel:+917028041838"><img src="https://ogoing.com/uploads/637517550391602683_thumb.gif" height="100" width="100" align="right"></a>
+            </a>
+            </div>
+  
+
+            
+
+ 
+          <div id="google_translate_element" align="right"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLafWv1ewyvihxSWMi1Z76IgaNsdm5XDjqEH3bAt-CvQACbA/viewform?usp=sf_link"><marquee class="li" direction="left" onmouseover="stop()" onmouseout="start()" style="font-weight: bold;margin-top: 10px;margin-bottom: 5px; "><font color="#04AA6D" size="4">अनूर पब्लिक स्कूल सिसवा में 
+2023-24 के लिए नामंकन शुरू हो चूका है। लिंक पर क्लिक करके नामंकन करे। धन्यवाद</font></marquee></a>
+
+       <div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="result.html"><i class="fa fa-fw fa-search"></i>Result</a> 
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgopRivZi2Ipd1oLDPUSAw1wXhaBFBjwmcNcyp-ZCm0fQrKN_OxdzN3KZvIywc6mjIUwnSk7kE8sxDQYtfLFXle8X6Q0Wnz3PCTM78-3j9zUmQFBqb5xCgECYyXUPQNktZ-zsgxgceRUPF5XDU8PDUWDZoyN-_4cahNyD17WmUNpspw_1D0qtXv8TGrkQ/s1297/contact%20us.png"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+<br>
+
+           <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ998WL6aoBERp4rt5R-RPi52DyCqH9Q6beLGTC3o8Ei8mihOmEFEACIYKhUUWuyBzDifU_7DcUhFs-L6FYebj_KlhvJ_IMyP3E3UQtA_GuZSCeYk04mcMKJiWiT4cqEn3gksV8s9YBBREQ-X0FyBbpdQBBkkbpFm4LYRF2mztSrNwjJAs8M7PGIM3Iw/s962/image.png" width="75%"></center>
+        <br>
+     
+  
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZCmRB2WOTPmrJkC8fRNZaJRfD_GWbZuYYVXlT-pNxXK0bFi1hnHsUy-v7d92PekseGX6fWZcwP81F9YDyZaVik5RtWqncZSsMxjOafMMw5MNRxosTGbouhJE7P2gDtYI_igQW_D9CmvLxr679zxwtxoS7OGaQC7xxRi-gGEqUfjXYIm5TCj6DxESCgQ/s1600/school_image%20(2).jpg" class="img-fluid" alt="...">
+               
+            </div>
+            <div class="carousel-item">
+               <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaNL-VxlvDQ_20BOJl9ewWfZ5g9ic-6zq5hqcV66wpRSSD3nEx4C1A5TmkEYBtt-HsaPOyFmWp_kjsVvppNwkEE8hXZ74-k389sqYewOYnwDGL1GRfu5ol9H1QELItbL2p_VI1j3g0IT2uD4U3PuBgFnQ0emgQLPZhn49FZUEZy0_u8OJcrqvDam67w/s1600/school_image%20(6).jpg" class="img-fluid" alt="...">
+  
+            </div>
+            <div class="carousel-item">
+          <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgz4vFkEWA10h4OQx1mVVOIdgRIj2r7PrLq4tyv23_vivXYKCNIRK6nXHw_RsqxXGJeXrtakxG4PY6HXwRmFMoq8yFBZYtl1SIJ1WkrolAJO7q6oBF4xV_2eD6p-_lNUiXs6-32Af_LueqP7UQHAusZMeigz1ISZbcv_2FTbpgQZSYrxJtTXFTdhM4ng/s1600/school_image%20(7).jpg" class="img-fluid" alt="...">
+
+               
+            </div>
+          </div>
+  
+         
+  
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+            
+
+           <center><h2 style="color:#04AA6D; background-color:white;">MATRIC RESULT 2023</h2></center>
+        </center>
+        </div>
+         <div class="row">
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/-2HOlVMMsqMk/ZCmc36fsj6I/AAAAAAAAHFI/yb_No1tEbR4fBWcWJif8IC63Tney2NErACNcBGAsYHQ/s1600/1680448730711226-0.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src=" https://lh3.googleusercontent.com/-VFhPhhjxZG0/ZCmc2tqAECI/AAAAAAAAHFE/EP1kfRdKTbQ2A3GXmufZpKd2CYTUvDh5ACNcBGAsYHQ/s1600/1680448722886024-1.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/-b84TvZ1IzkA/ZCmc0iItGEI/AAAAAAAAHFA/ggnsdkPBB-E_PFrwnJG74VOiHv3bKdn5wCNcBGAsYHQ/s1600/1680448717473120-2.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src= "https://lh3.googleusercontent.com/-ScCXT8TWD4I/ZCmczAwNBRI/AAAAAAAAHE8/hG5LjG1aDtom63JJUeRVKh3ndiy192PpACNcBGAsYHQ/s1600/1680448711722878-3.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  
+  <div class="column">
+    <img src= "https://lh3.googleusercontent.com/-YYFNbbGBTu0/ZCmcxy4gkvI/AAAAAAAAHE4/RWzOjMaXcUwsrfufTqL5IuyRdEz4kkmMQCNcBGAsYHQ/s1600/1680448700265813-4.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  
+  <div class="column">
+    <img src= "https://lh3.googleusercontent.com/-pviNDhzH0mQ/ZCmcu20OVMI/AAAAAAAAHE0/3QvzlpeWsCoBGPNk-jl9Sc8wgL5Zy3qZwCNcBGAsYHQ/s1600/1680448694150276-5.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  
+  <div class="column">
+    <img src= " https://lh3.googleusercontent.com/-QcUywruzSmk/ZCmctajHzMI/AAAAAAAAHEw/JmoYUt7XnkQ6M-TsFCpXtdYwkeVYUxMbgCNcBGAsYHQ/s1600/1680448687990576-6.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+      
+  <div class="nm">
+       <section id="about">
+ 
+      <font color="#85cb00" style="font-size:32px;"><center>ABOUT US:-</center>
+          </font>
+        
+          <div class="about-text">
+            <img src="https://www.primekidzschool.com/images/about.gif" class="img-thumbnail" alt="...">
+               
+              <br> 
+              
+              <font style="font-size:25px; color:black;">Al-Noor Public School was founded in 1993, by Maulana Abdul Mobeen Asari,A determined Educationist and social worker.He focused on value education in islamic environment.</font>
+             <br>
+              <font style="font-size:25px; color:black;"> 
+         Al-Noor was stablished in Siswa - a Known village - in  East Champaran Bihar, in 1993. And Al-noor Boy's Hostel was started in 2006.
+         <br>
+          </font>
+          <br>
+          <font style="font-size:25px;color:black;"> 
+            AL-noor has achived various goals in this period.A lot of students passed out and have reached their favourite destinations .Many Doctors,Engineers, Other professionals,ullama,Huffaz and persons in other field in siswa and around, were nurtured and got their strong foundation in this school.
+          </font>
+          </div>
+          <br>
+ 
+ 
+           </div>
+
+  </section>
+  <br>
+  
+  
+  
+  
+  
+  
+  <section id="about">
+      <div> 
+      <font color="#85cb00" style="font-size:32px;"><center>OUR VISION:-</center>
+          </font></div>
+        
+          <div class="about-text">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWNtpyyHCWF2f1dRsZZLAfdO2MulKOReBqSzdWDx_yRw1uACGLhqMUYI3Mim0E5MNmW18DQYKTC8tf8rCknAqpLxGdrF4xF5bN-naXZclB0FFJzfQxVWva2Ar0ZvSIjYSMqjCSz_e7o-js3J3uD3EjcD_tBBxEEgWfBKZMQgLYWo1eOTH24iwbV0CIog/s320/al-noor-public-school-siswa-motihari-schools-jj6ac8fji7.webp"   height="250" width="430">
+              <br><br>
+              
+              <font style="font-size:25px;">✪ To Provide Quality Education. </font>
+              <br>
+              <font style="font-size:25px;">✪ To Provide Educational,Moral And Islamic Environment. </font>
+              <br>
+
+              <font style="font-size:25px;">✪ To Inculcate Goodness,Discipline and Sense of service to mankind among pupils.</font>
+              <br>
+
+              <font style="font-size:25px;">✪ To make bold and responsible citizens.</font>
+              <br>
+
+              <font style="font-size:25px;">✪ To develop student's personality intellectually,physically and emotionally.</font>
+              <br>
+
+              <font style="font-size:25px;">✪ To develop positive thinking and nurture pious behaviour among students.</font>
+
+              <br>
+
+              <font style="font-size:25px;">✪ To provide best education at lower cost for all groups of society.</font>
+
+              <br>
+
+              <font style="font-size:25px;">✪ To educate orphan and poor students at free of cost.</font>
+
+    
+              
+           </div>
+  </section>
+  
+  <section id="about">
+  
+      <div> 
+      <font color="#85cb00" style="font-size:32px;"><center>OUR BOYS HOSTEL:-</center>
+          </font>
+      </div>
+      <div class="about-text">
+  
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSo2FHLrKQbz5Rft9fSnBRC5xbRZZ9hd3JBeyROQ5A0d05Lmssb7aHmmttF9DVzDpX_L1OHdbCoYgDDSqQgdiKwL1Sob7NdqIkoO8Pn_uHU3iAzuhlW1K_frcdwcR8vgXevQUQZYa63dduUimOTVJ1QUy9lqfgpG-T8qabkT-EeqaeBFih8N6WZizw_A/s320/1654163421779.jpg"  height="250" width="430">
+          
+          <br><br>
+              
+          <font style="font-size:25px;">Al-Noor Hostel was established in 2006 ,in school campus. After then it was shifted to ground floor of Al-noor masjid. Now it has own building opposite the Al-noor masjid.</font>
+          <br>
+
+          <font style="font-size:25px; margin-left:34px;"><b> 𝔸𝕝-ℕ𝕠𝕠𝕣 ℍ𝕠𝕤𝕥𝕖𝕝 ℙ𝕣𝕠𝕧𝕚𝕕𝕖𝕤:-</b></font>
+          <br>
+          <font style="font-size:25px;">✰ A peaceful environment for living and studying.</font>
+          <br>
+
+             <font style="font-size:25px;">✰ All facilities for students are available here.</font>
+             <br>
+
+                <font style="font-size:25px;">✰ An experienced wardner.<font>
+                  <br>
+
+                     <font style="font-size:25px;">✰ Healthy and nutritios food menu.</font>
+                     <br>
+
+                        <font style="font-size:25px;">✰ Disciplined atmosphere.</font>
+                        <br>
+
+                           <font style="font-size:25px;">✰ Helpful Teachers</font>
+                           <br>
+
+                              <font style="font-size:25px;">✰ Hostel is available at low cost to avail opportunity for low cost income faimilies.</font>
+
+                              <br>
+
+                                 <font style="font-size:25px;">✰ It's also available for orphan students at free of cost(providing fooding,lodging,schooling and books).</font>
+   
+   
+   </div>
+   
+   
+   
+   
+   
+  </section>
+  <br>
+   
+   
+  
+  
+  
+  
+   <center>
+      <div class="nm"> 
+      <font color="#85cb00" style="font-size:32px;"><center> CONTACT US:-</center>
+          </font>
+      
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+              <a href="tel:+91 7028041838"><i class="fa fa-phone" style="font-size:80px; color:blue;"></i></a>
+              <h4 style="color:red; margin-left:3px;">Director</h4>
+              <a href="tel:+91 9507558673"><i class="fa fa-phone" style="font-size:80px; color:brown;"></i></a>
+              <h4 style="color:black; margin-left:3px;">Principal</h4>
+ <a href="alnoorpublicschoolsiswa07@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" height="100" width="100" align="center"></a>
+ <br>
+<a href="https://wa.me/917028041838?text=Most welcome to Al-noor public school whatsapp! how we can help you" target="blank">
+<i class="fa fa-whatsapp" style="font-size:100px; color:green;"></i></a>
+</center>
+      </div>
+ 
+  <br>
+  
+  
+  <section id="about">
+  <div class="about-text">
+         <div> 
+      <font color="#85cb00" style="font-size:32px;"><center>OUR TEACHERS:-</center>
+          </font>
+      </div>
+  
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkTdgcINeelNdEQo-PfCgWVd6dYcAmYwq163dne0qu1fnrtDOXik4tsJaJPL9zrri6QYRjdo_hZcWcjzyGCGNIwD9r2vW8vkKU2z_-k6sMi4nE-ixUd6ouEKH8wcfQsDXGBhnC94BZg8Yh0TsO5fz8ehlXKV_RQyEafyGI-IgnMKsHNOvwZ71hDLt5tg/s320/mobeen%20sir.png"  height="100" width="100" style="border-radius:1000px;">
+          
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv5-_wTk_HDfzPgmeBjvb8jlkZmoigQReptaSUlJFX2QfJj5SitD4U3rZm7XsbpSQFZsD_cpjL_PB-a9OiNzhoIjy4zXpoLHpuiLlwvhps-hILqKFG10j0C0AzsuJ7Me0q3BwLCQmA5DllkECAWdXwYbiF6ihNojY8fWsjghRLpCmqUTUHU7UHzOb2_w/s320/rahi%20sit.png" height="100" width="100" style="border-radius:1000px;">
+  
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH9zBArSsPDm_bFeR6MReGKlURosOqa3XeRSlTmV7XSXIcWthnpLCdCYnTp06RZdjmesxhdDHAzBiq1c2KQ2iEuK-cH9s24qAgUPc-he3rYNtWhixJgvKclrFjKG7xxHrPpqgbESEyOiMOum_-FrXgpxBbQ1QAlZTORPCgY5l8XLIZwARRQWfSjKFOYQ/s320/reyaz%20bhai.jpg" height="100" width="100" style="border-radius:1000px;">
+          <img src="https://lh3.googleusercontent.com/-UpGaVzJH5ZU/Y-zUJK3OqvI/AAAAAAAAGHc/Y3e7sLE0Md0cBMC6rlJ1IOafu4PIu2uDACNcBGAsYHQ/s1600/1676465180835029-0.png" height="100" width="100" style="border-radius:1000px;">
+            <img src="https://lh3.googleusercontent.com/-DaGNex-e37I/Y-4omMMC63I/AAAAAAAAGJs/H-TFt0jCL0s0_nh034Rqgy4KiqgQXk8HwCNcBGAsYHQ/s1600/1676552340303294-0.png" height="100" width="100" style="border-radius:1000px;">
+
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeczVi4c0HoM_KRBfpTY527CGHmICxzh2tb4s_gWZLsEx77RUj_iiwlrAwiZiE95t5f1IW37lccE1fTUhQ5Cks2fYDV8Ihwm_23PfNHZtN00feW10O84Wgppq-PM6gM2K8qyQLLMKwj7ZND4AXjMmTefJeKGIb1nF6mwxBkKYcJrHaUfQOOrkqC64-Yg/s1600/maidam_image%20(3).png" height="100" width="100" style="border-radius:1000px;">
+
+          <img src="https://lh3.googleusercontent.com/-3nBU6MbcMtE/Y-4o2jJZm8I/AAAAAAAAGJ0/ZDNRc6UgdZ4pWF8sXs-8eYljLhaWpzxJgCNcBGAsYHQ/s1600/1676552406480728-0.png" height="100" width="100" style="border-radius:1000px;">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxFiyFhPCRxMsEh87LZnc1ZRBjFyfAemFQj6Lx265UXZO-pMbCpcNGPpEbKT0jszi8hNqNrKGM6nzv6uLCpE4hTLbCum3NUVXKWhM9HaM0L9OBAf0yAQ4ABdG3A4hNYZzMvkj5p3jgydr05aTkzX2SHX7m-1G_ZvNeeKuzQq60JckhQ7YhBYm0xMXSrA/s1600/maidam_image%20(1).png" height="100" width="100" style="border-radius:1000px;">
+
+             </div>
+          </section>
+             
+  <br>
+  
+  <div class="nm">
+    <center><h2 style="color:#85cb00;">OUR MOSQUE</h2></center>
+ <img src="https://www.revv.co.in/blogs/wp-content/uploads/2022/06/Hazratbal-Masjid-Srinagar.jpg"  height="250" width="430">
+ <br>
+     
+     <font style="font-size:25px;">Here Hostel boys is read the salat and reading in Al noor masjid. Villages peoples are also read the salat with hostel boys.</font>
+     <br>
+     <font style="font-size:25px;">A mosque that serves as a hostel for children who read the Salat is a wonderful place for young Muslims to live and grow in their faith. The hostel is typically located near a mosque or within a mosque complex, which allows the children to easily attend daily prayers and other religious activities. The hostel is equipped with facilities that are necessary for the children's comfort and safety, including dormitories, kitchens, and common areas for studying and socializing. The mosque hostel is also staffed with caretakers and religious leaders who provide guidance and support to the children. Overall, a mosque hostel is a valuable resource for families who want to ensure that their children have a strong Islamic upbringing.</font>
+
+  </div>
+  
+  
+  <section id="about">
+  
+      <div> 
+      <font color="#85cb00" style="font-size:32px;"><center>OUR GALLERY:-</center>
+          </font>
+      </div>
+      <div class="about-text">
+        
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwON8krhS7l1XVy44PlMYokP0RcOKVauY6ZyCMxStCVda-ljR0yTIJVsKGHOG0zT5qV3KjHZ9uRpSPoM78iVYOccKP4W43l8iX3jd1MsxcOnTIHIKJV-wqXWRn3tOt17vF66EAxs6lKa-hmdcwXqGh2Tzx7_9mmggx8oPURYbuCl9EPvWw0hB7KmTMw/s1600/school_image%20(14).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVTmH0iSH2FbRE_VT7ZVAa9to2NmJc-xuVT0sFwtaBmt9Ezx2a3FHWwuzQUZPMf5GhwWtxHVgQZwVQtBL0X_SLQ_p5lb-oJP0oP6YE4DInCw5Kfq-L9Jl5OnbxNtu18w-UTGuNzF_l2USxCYh_FXmK4Ta0r13TrqeC7e0g2tEZWqflLEf6hIBklzcQTA/s1600/school_image%20(13).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRHmZY1lAsDHmEEauHuj-z-oJsMr4Xm3qc6-LEtnP8_-4yEMZf-X_NesNoonWhuhCIHNEbKb5zvl8W7MiYve_DiJO3nay17hbMutL_TgZeed1pdfqa44r9iUf726e3truqlvcfQFuY2E4Ly9-fSJA4fbOs_Eo2vpu0Qd23RS5xr3zkek0wBDkGI1YWQg/s1600/school_image%20(12).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWOzBvo6qTQudkHbMvLBGwI_7-t34F_nvjsNo94Ow04Ow-HXdF9rxGAo1cNmooDmX5GWwI_0dehGTPCGJqM8l5Kt_vF-I26aRZGgy6pkGPE3PC19QNwcA7v8W4AeG38O1gJo5RW-Dm9D8X0bAqQr4qatfQ6pQhJG6vLjxwzw6YYR8kunzcO8eTVvqoiw/s1600/school_image%20(11).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sUvQatniZnWTzanE2joC6Wz1-ODSGkHG4V9-0bed4VIn4k83be-WxL90F0vKMsTXh5K2PoBmgLNyp-YtEuhZEmzRGB3jBuKb61ZshtivRDVTBFdq1ix7VmzhnZXiybtYEh7nLi3pg8BN79eOuNDppg3VcNuDYvtwvn1ZMWeLS0EZsPQ7NAtCzGUmNQ/s1600/school_image%20(10).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNK48q73c5Qxivfy-BD30d4nWe2ANX3v5fO2i3_QyzFf2lZijD2X6GM3nccs3fL8sCxzlllyLkUI7MLa-ZcJ14VG9sEOYBGYkHIONx0pea7G5SFsrqZanBRXRT0TbPOUe-S8gbJ8JNJUbNVsWe6EBj-BToi2-n7OZ1ucyH5r7dFKBtLlMHFN_FzsZx0g/s1600/school_image%20(9).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWprE-xwmfIt-Xic7fbzbRHERFiu6lD5rp8c0S53Z1p1q2x_iigCrSubUJLA9BM9_vjlLrPsDjiaR2dTlnjJ173kpcG4G8z4Ixl0W2LYPUzuj5k22JajipTBmK9lVW3K-oKikAuApElhmmj8NhIGUC2q6EqbAwA0q-gK56KBLCmQmjBbXTiRHDtq_bNw/s1600/school_image%20(8).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgz4vFkEWA10h4OQx1mVVOIdgRIj2r7PrLq4tyv23_vivXYKCNIRK6nXHw_RsqxXGJeXrtakxG4PY6HXwRmFMoq8yFBZYtl1SIJ1WkrolAJO7q6oBF4xV_2eD6p-_lNUiXs6-32Af_LueqP7UQHAusZMeigz1ISZbcv_2FTbpgQZSYrxJtTXFTdhM4ng/s1600/school_image%20(7).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaNL-VxlvDQ_20BOJl9ewWfZ5g9ic-6zq5hqcV66wpRSSD3nEx4C1A5TmkEYBtt-HsaPOyFmWp_kjsVvppNwkEE8hXZ74-k389sqYewOYnwDGL1GRfu5ol9H1QELItbL2p_VI1j3g0IT2uD4U3PuBgFnQ0emgQLPZhn49FZUEZy0_u8OJcrqvDam67w/s1600/school_image%20(6).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8qRoWtIxj50YRDtNJojG-eoNUt5JQUKqjU8Rs91ymi5oO6q6SGZqovWB1whR_CbihSwf0KlBEO4JRHKq0LRERXQVdTZ4L47PvV8CMPH3n_wIFf8mX2XIaWvg00GBVKiyIXZxlUnlI8EUrLTOwFNPX_EpX14JeEF4ZBDmGEIJgiveyIan_ZM7tnzkaBQ/s1600/school_image%20(5).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEyh55h8x7i_42Kn0LGEs6jRDCuHvjpElGBftAJAagbHkBIJKwJ6L89JoUqC72J-sdX5WuWX2F6KIpvSK6EdFm_5Hsd9uEs6cTdAdbFJ9dEBiT5b4_3Iej-JDNNxlEFfJRakPvIO-0LdWLIMzgxDsWksKkrN9EvmYmqOVBBpB3ek3YRQ40XKuotvD7Uw/s1600/school_image%20(4).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik85JbMl1y4YD5h20Ux6WsRKQBc2w5vH4wF-4NkanPAhpG6vv72uFCGAOg6VNxkBAqWNu_40TcStE2BwB7g4NhBIaJNnNTS2c-vSYMHmWBcZ89g7T6VY6fcVALtPpzuhMAC_9uTpuVaX4zqpAW0QWLVdR4XmErAaCKhzsdQ8f6P_J2rx1KCkRcyEr6Pw/s1600/school_image%20(3).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZCmRB2WOTPmrJkC8fRNZaJRfD_GWbZuYYVXlT-pNxXK0bFi1hnHsUy-v7d92PekseGX6fWZcwP81F9YDyZaVik5RtWqncZSsMxjOafMMw5MNRxosTGbouhJE7P2gDtYI_igQW_D9CmvLxr679zxwtxoS7OGaQC7xxRi-gGEqUfjXYIm5TCj6DxESCgQ/s1600/school_image%20(2).jpg" height="250" width="430">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcdt-d1XzDlEuq3Dw_rtie2cO-2kKobv1ZUC-AQRa0JN8xTPk5_eOfOuOG6V1dg2UCH6cHu9q6b336a-5GrjZyaZhF4ur0BUO5wb3OGeQDVY4XmlQADV37H7PlZKbY4En3vG67QykLYiMfcXOO2m6slD76XMyTcNv6qr-C5SjWHNdOHFaFaoKGK2scuA/s1600/school_image%20(1).jpg" height="250" width="430">
+   
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWE4AOVaiH8UMr_p1o_Zu8xB_F1kufet6dKpvdu0kUlU5SiWF0KgR_5tPFhZNt0R39LfWE6uFhTC2g26t2LiaPftRqU5EZKCMoVea3ZFlvkJdiUHU9ZBhJngTcxomu-CG8pl4C2_b4idimHdAG871U-evvAea1_jMHFh2aghytoRlBhbn0wn38dxKM1Q/s320/1654163421801.jpg"     height="250" width="430">
+          
+  
+  
+     
+  
+          <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg93HPqdDt8qjvQjHnBVKsl5rBDNTrhWQxDKiSAeogy4fiR3vMvEiqfhwwwaZl0XBHp5WxYl2ZA_rumKhfye4LuK3hB46iP0GDowrFLyWnKCa_f6l2tQUBHbmDskVeMWCIVI5QJ5YVHSCOfCsd0VourEuGTo-0VWR3ANExoUpldEe4qInERaZWVcTMew/s320/IMG-20221113-WA0005.jpg"  height="250" width="430">
+  
+  
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfxijJOg_f6iWBPbBO66TxCOlG0QZapHWmNaXoyOdP-VeJbQ9aMg67vuFYaTW5WsTLV9lGg82YEU-NO1Hozc04ZRDkkr2IAbQEFfuLZY8QKk3o-7l97kGbF9zrybSqyhqBtDPulAiuRh7vyzp3RZwo2irCgi_kbd2B8bSuoeqmXp6-8v8dF0IYQMoK2g/s320/IMG-20221113-WA0004.jpg"    height="250" width="430">
+          
+  
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijwLw0c3I2i3L21S5Z5BjxCZFeejyxdgPQRifhDR7xKKF8gLE3lIxYm9JJ47Di2gLiAdD5ww_TQv_K73cZkvPgRerpA_2GCcErNyuKZg70AyTV0QuM0DJk-BY6-F95iPCjAmovtOnNB8Yb_gXD1skJnFMeQXErEFBewwlhs85AX4HvWErI-SoDQ5s9Ww/s320/IMG-20221113-WA0003.jpg"    height="250" width="430">
+  
+  
+           
+  
+  
+          <img src=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIz2igDab-O2ROEkhesABNj-IadK3LwQt-_B7z0f-d5SstB7lpgQ2BqJ63ZupResce6ppM25LqtP-d3rSC9atbYsjOl4aYolK3wa1-R0DwSXmNDkEpZHO1Gpej29gSWtONQeODHlxlkxVknuW7gxa2hTZszLrkXClf53ocL6HO1wpf0Ug2g7Qt9T-XIw/s320/IMG-20221113-WA0001.jpg" height="250" width="430">
+          
+  </div></section>
+  
+  <br>
+  
+  
+  
+  <section id="about">
+      <div> 
+      <font color="#85cb00" style="font-size:32px;"><center>FUNCTION IMAGES & VIDEO:-</center>
+          </font></div>
+        
+          <div class="about-text">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh57TA0po5Z7IevafOrACK2ZTaf7iCkca40gdCCJp05MkuD-RxC_h4OATrSI1yu9Ov9C8lgo0plfls4UH744Q0J2Z4wVflQfw45HKvS6i2YbUUy7VGH-iVeEQuQwIL6K8yNmoL_TTbyN1beYZ6dItZo4EwMSeqiq1sWT-8Y6OPplOnPmbQmZgDxd41K7w/s320/1654163421719.jpg" height="250" width="430"  >
+  
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8c0OzlW9mRD-oopoAo4fp0XdvtTWMlmAowl-kJQeJiMYRhqMY4KmtUBvHcXld2Ixycjgqovrd1c9IjmymJsVx97M2LDtCUDy5k0vQ_RNlMo1-FTQSzeSkoxoMBGSez_zO1vO8xulZHjAvUwmmOTOJ46OGMmXsehY4cfFAPs7fs-5Vd1kCW08ztlX0Uw/s320/1654163421756.jpg" height="250" width="430" >
+  
+  
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBN3Z21ZthE33O2oT0a4vTpkZV2pwsvbfMMZG7Btk_SfORkxcMwApclWSq87X1ahM1j7f3iFkvovlKmaAG2GLMxVyeta7iQwyQPODwVeiAPTrwR5ORpw-EcyAi3bRI3MVE9IsFmx5GG1x0FTC9ndmXL-fzhmyoJcbXDYJedGwVRGtIrv3uZS7qqp3fDA/s320/1654163421792.jpg" height="250" width="430"  >
+  
+  
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijSG-fLDBQ2AaBqWDM8sp-CvCFkn8dpIv12ZVAncHrJ49v2nVPtqzCeJ4_i7k6z2sTEQocZihBMubLLDzx97xWSq0Wzb4YRGNbyC8zO5fdsK2XKTKC4wHruUdv7TW8vY49rr8Z7px2o3a1Q28CGNWWresl6QpVHM0GppM3r3TjUl-DvB054wztjASGiQ/s320/1654163421689.jpg" height="250" width="430">
+  
+              <br>
+  
+              <iframe width="100%" height="330" src="https://www.youtube.com/embed/p7NpV6nurGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+              <iframe width="100%" height="330" src="https://www.youtube.com/embed/VhtPOjczIaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+              <iframe width="100%" height="330" src="https://www.youtube.com/embed/4DJ2kDbWQqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  
+              <iframe width="100%" height="330" src="https://www.youtube.com/embed/bZ6UZcjOJbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </section>
+  
+  <br>
+  
+  
+  <div class="nm">
+              
+     
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="color:deeppink;">ONLINE ADDMISSION FORM</h5><img src="https://www.induveena.com/wp-content/uploads/2020/02/new-animated-gif-icon-2.gif" height="40" width="30"></img>
+            <p class="card-text" style="color:#85cb00">Nur class to 10th standard apply now click link.</p>
+            <p class="card-text"> read carefully and fill up the addmission form.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLafWv1ewyvihxSWMi1Z76IgaNsdm5XDjqEH3bAt-CvQACbA/viewform?usp=sf_link" class="btn btn-primary">ADDMISSION FORM</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <br>
+
+
+     <section id="about">
+  <div style="background-image:url('https://wallpaperaccess.com/full/3924583.jpg');">
+      <font color="#85cb00" style="font-size:32px;"><center>OUR CILENT ON SOCIAL:-</center>
+      </font>
+   
+ 
+  
+<marquee direction="left" scrollamount="12">
+<a href="https://www.facebook.com/profile.php?id=100087677964693"><i class="fa fa-facebook" style="font-size:100px; color:blue;"></i></a>
+</marquee>
+<marquee direction="right" scrollamount="12">
+<a href="https://wa.me/917028041838?text=السلام علیکم ورحمۃ اللہ وبرکاتہ
+" target="blank">
+<i class="fa fa-whatsapp" style="font-size:100px; color:green;"></i></a></marquee>
+<marquee direction="left" scrollamount="12">
+<a href="https://www.instagram.com/mr_najeeb07/"><i class="fa fa-instagram" style="font-size:100px; color:#bc2a8d;"></i></a>
+</marquee>
+<marquee direction="right" scrollamount="12">
+<a href="https://www.linkedin.com/in/najeeb-ji-b40514257/" target="blank">
+<i class="fa fa-linkedin" style="font-size:100px; color:#0A66C2;"></i></a>
+</marquee>
+ </section>
+  </div>
+  
+  
+
+ <div class="nm">
+        <center>
+        <h1 style="color:#85cb00;">OUR LOCATION</h1>
+        </center>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.3343347465875!2d84.91416701496561!3d26.70176408321884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eccab188a28473%3A0xdb4e40d7b5d73254!2sAl-Noor%20Public%20School%20Siswa!5e0!3m2!1sen!2sin!4v1676455919570!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+ 
+
+ 
+
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+              
+              <a href="https://www.facebook.com/profile.php?id=100087677964693"><i class="icon ion-social-facebook"></i></a>
+              <a href="https://wa.me/917028041838?text=السلام علیکم ورحمۃ اللہ وبرکاتہ"><i class="icon ion-social-whatsapp"></i></a>
+              <a href="#"><i class="icon ion-social-twitter"></i></a>
+              <a href="https://www.instagram.com/siddiquefoundationmadhopur/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-instagram"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="contact">Contact us</a></li>
+                <li class="list-inline-item"><a href="vision">About us</a></li>
+                <li class="list-inline-item"><a href="donate.html">Donate</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Al-noor public school siswa © 1994-2023</p>
+        </footer>
+    </div>
+    <hr>
+    <a href="https://wa.me/917992292086?text=Hii i'm a web developer,how we can help you❤️|"><center><h4 style=color:#85cb00;>Made With❤️:mr_najeeb_07</h4></center></a>
+         
+
+    
+
+     
+ 
+      <a class='scrollToTop' href='#' style='display: inline;'> 
+   <img src='https://profreehost.com/graphics/arrow-top.png'/>
+         </a>
+
+
+         
+         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    
+    </body>
+    </html>
